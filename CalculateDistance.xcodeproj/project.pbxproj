@@ -14,6 +14,7 @@
 		D650E6FB2BCFAA88002188B1 /* CalculateDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E6FA2BCFAA88002188B1 /* CalculateDistanceTests.swift */; };
 		D650E7052BCFAA88002188B1 /* CalculateDistanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E7042BCFAA88002188B1 /* CalculateDistanceUITests.swift */; };
 		D650E7072BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E7062BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift */; };
+		D65D6E282BD0649100093CCD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65D6E272BD0649100093CCD /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D650E7002BCFAA88002188B1 /* CalculateDistanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateDistanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D650E7042BCFAA88002188B1 /* CalculateDistanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDistanceUITests.swift; sourceTree = "<group>"; };
 		D650E7062BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDistanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D65D6E272BD0649100093CCD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		D650E6E82BCFAA86002188B1 /* CalculateDistance */ = {
 			isa = PBXGroup;
 			children = (
+				D65D6E262BD0648300093CCD /* Helper */,
 				D650E6E92BCFAA86002188B1 /* CalculateDistanceApp.swift */,
 				D650E6EB2BCFAA86002188B1 /* ContentView.swift */,
 				D650E6ED2BCFAA88002188B1 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				D650E7062BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift */,
 			);
 			path = CalculateDistanceUITests;
+			sourceTree = "<group>";
+		};
+		D65D6E262BD0648300093CCD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D65D6E272BD0649100093CCD /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				D650E6EC2BCFAA86002188B1 /* ContentView.swift in Sources */,
 				D650E6EA2BCFAA86002188B1 /* CalculateDistanceApp.swift in Sources */,
+				D65D6E282BD0649100093CCD /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

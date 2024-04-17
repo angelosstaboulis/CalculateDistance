@@ -11,7 +11,7 @@ import SwiftUI
 struct CalculateDistanceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(destinationCoordinates: .init(), currentCoordinates: .init(), destination: "", current: "", distance: "")
+            ContentView(destinationCoordinates: .init(), currentCoordinates: .init(), destination: "", current: "", distance: "", realDistance: "")
         }
     }
 }
