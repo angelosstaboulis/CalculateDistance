@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D650E6EA2BCFAA86002188B1 /* CalculateDistanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E6E92BCFAA86002188B1 /* CalculateDistanceApp.swift */; };
+		D650E6EC2BCFAA86002188B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E6EB2BCFAA86002188B1 /* ContentView.swift */; };
+		D650E6EE2BCFAA88002188B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D650E6ED2BCFAA88002188B1 /* Assets.xcassets */; };
+		D650E6F12BCFAA88002188B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D650E6F02BCFAA88002188B1 /* Preview Assets.xcassets */; };
+		D650E6FB2BCFAA88002188B1 /* CalculateDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E6FA2BCFAA88002188B1 /* CalculateDistanceTests.swift */; };
+		D650E7052BCFAA88002188B1 /* CalculateDistanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E7042BCFAA88002188B1 /* CalculateDistanceUITests.swift */; };
+		D650E7072BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650E7062BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D650E6F72BCFAA88002188B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D650E6DE2BCFAA86002188B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D650E6E52BCFAA86002188B1;
+			remoteInfo = CalculateDistance;
+		};
+		D650E7012BCFAA88002188B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D650E6DE2BCFAA86002188B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D650E6E52BCFAA86002188B1;
+			remoteInfo = CalculateDistance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D650E6E62BCFAA86002188B1 /* CalculateDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateDistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650E6E92BCFAA86002188B1 /* CalculateDistanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDistanceApp.swift; sourceTree = "<group>"; };
+		D650E6EB2BCFAA86002188B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D650E6ED2BCFAA88002188B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D650E6F02BCFAA88002188B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D650E6F62BCFAA88002188B1 /* CalculateDistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateDistanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650E6FA2BCFAA88002188B1 /* CalculateDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDistanceTests.swift; sourceTree = "<group>"; };
+		D650E7002BCFAA88002188B1 /* CalculateDistanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateDistanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650E7042BCFAA88002188B1 /* CalculateDistanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDistanceUITests.swift; sourceTree = "<group>"; };
+		D650E7062BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDistanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D650E6E32BCFAA86002188B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650E6F32BCFAA88002188B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650E6FD2BCFAA88002188B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D650E6DD2BCFAA86002188B1 = {
+			isa = PBXGroup;
+			children = (
+				D650E6E82BCFAA86002188B1 /* CalculateDistance */,
+				D650E6F92BCFAA88002188B1 /* CalculateDistanceTests */,
+				D650E7032BCFAA88002188B1 /* CalculateDistanceUITests */,
+				D650E6E72BCFAA86002188B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D650E6E72BCFAA86002188B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D650E6E62BCFAA86002188B1 /* CalculateDistance.app */,
+				D650E6F62BCFAA88002188B1 /* CalculateDistanceTests.xctest */,
+				D650E7002BCFAA88002188B1 /* CalculateDistanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D650E6E82BCFAA86002188B1 /* CalculateDistance */ = {
+			isa = PBXGroup;
+			children = (
+				D650E6E92BCFAA86002188B1 /* CalculateDistanceApp.swift */,
+				D650E6EB2BCFAA86002188B1 /* ContentView.swift */,
+				D650E6ED2BCFAA88002188B1 /* Assets.xcassets */,
+				D650E6EF2BCFAA88002188B1 /* Preview Content */,
+			);
+			path = CalculateDistance;
+			sourceTree = "<group>";
+		};
+		D650E6EF2BCFAA88002188B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D650E6F02BCFAA88002188B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D650E6F92BCFAA88002188B1 /* CalculateDistanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D650E6FA2BCFAA88002188B1 /* CalculateDistanceTests.swift */,
+			);
+			path = CalculateDistanceTests;
+			sourceTree = "<group>";
+		};
+		D650E7032BCFAA88002188B1 /* CalculateDistanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D650E7042BCFAA88002188B1 /* CalculateDistanceUITests.swift */,
+				D650E7062BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift */,
+			);
+			path = CalculateDistanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D650E6E52BCFAA86002188B1 /* CalculateDistance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650E70A2BCFAA88002188B1 /* Build configuration list for PBXNativeTarget "CalculateDistance" */;
+			buildPhases = (
+				D650E6E22BCFAA86002188B1 /* Sources */,
+				D650E6E32BCFAA86002188B1 /* Frameworks */,
+				D650E6E42BCFAA86002188B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculateDistance;
+			productName = CalculateDistance;
+			productReference = D650E6E62BCFAA86002188B1 /* CalculateDistance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D650E6F52BCFAA88002188B1 /* CalculateDistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650E70D2BCFAA88002188B1 /* Build configuration list for PBXNativeTarget "CalculateDistanceTests" */;
+			buildPhases = (
+				D650E6F22BCFAA88002188B1 /* Sources */,
+				D650E6F32BCFAA88002188B1 /* Frameworks */,
+				D650E6F42BCFAA88002188B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D650E6F82BCFAA88002188B1 /* PBXTargetDependency */,
+			);
+			name = CalculateDistanceTests;
+			productName = CalculateDistanceTests;
+			productReference = D650E6F62BCFAA88002188B1 /* CalculateDistanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D650E6FF2BCFAA88002188B1 /* CalculateDistanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650E7102BCFAA88002188B1 /* Build configuration list for PBXNativeTarget "CalculateDistanceUITests" */;
+			buildPhases = (
+				D650E6FC2BCFAA88002188B1 /* Sources */,
+				D650E6FD2BCFAA88002188B1 /* Frameworks */,
+				D650E6FE2BCFAA88002188B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D650E7022BCFAA88002188B1 /* PBXTargetDependency */,
+			);
+			name = CalculateDistanceUITests;
+			productName = CalculateDistanceUITests;
+			productReference = D650E7002BCFAA88002188B1 /* CalculateDistanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D650E6DE2BCFAA86002188B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D650E6E52BCFAA86002188B1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D650E6F52BCFAA88002188B1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D650E6E52BCFAA86002188B1;
+					};
+					D650E6FF2BCFAA88002188B1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D650E6E52BCFAA86002188B1;
+					};
+				};
+			};
+			buildConfigurationList = D650E6E12BCFAA86002188B1 /* Build configuration list for PBXProject "CalculateDistance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D650E6DD2BCFAA86002188B1;
+			productRefGroup = D650E6E72BCFAA86002188B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D650E6E52BCFAA86002188B1 /* CalculateDistance */,
+				D650E6F52BCFAA88002188B1 /* CalculateDistanceTests */,
+				D650E6FF2BCFAA88002188B1 /* CalculateDistanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D650E6E42BCFAA86002188B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650E6F12BCFAA88002188B1 /* Preview Assets.xcassets in Resources */,
+				D650E6EE2BCFAA88002188B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650E6F42BCFAA88002188B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650E6FE2BCFAA88002188B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D650E6E22BCFAA86002188B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650E6EC2BCFAA86002188B1 /* ContentView.swift in Sources */,
+				D650E6EA2BCFAA86002188B1 /* CalculateDistanceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650E6F22BCFAA88002188B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650E6FB2BCFAA88002188B1 /* CalculateDistanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650E6FC2BCFAA88002188B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650E7072BCFAA88002188B1 /* CalculateDistanceUITestsLaunchTests.swift in Sources */,
+				D650E7052BCFAA88002188B1 /* CalculateDistanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D650E6F82BCFAA88002188B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D650E6E52BCFAA86002188B1 /* CalculateDistance */;
+			targetProxy = D650E6F72BCFAA88002188B1 /* PBXContainerItemProxy */;
+		};
+		D650E7022BCFAA88002188B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D650E6E52BCFAA86002188B1 /* CalculateDistance */;
+			targetProxy = D650E7012BCFAA88002188B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D650E7082BCFAA88002188B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D650E7092BCFAA88002188B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D650E70B2BCFAA88002188B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalculateDistance/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.CalculateDistance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D650E70C2BCFAA88002188B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalculateDistance/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.CalculateDistance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D650E70E2BCFAA88002188B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.CalculateDistanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculateDistance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculateDistance";
+			};
+			name = Debug;
+		};
+		D650E70F2BCFAA88002188B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.CalculateDistanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculateDistance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculateDistance";
+			};
+			name = Release;
+		};
+		D650E7112BCFAA88002188B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.CalculateDistanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculateDistance;
+			};
+			name = Debug;
+		};
+		D650E7122BCFAA88002188B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.CalculateDistanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculateDistance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D650E6E12BCFAA86002188B1 /* Build configuration list for PBXProject "CalculateDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650E7082BCFAA88002188B1 /* Debug */,
+				D650E7092BCFAA88002188B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D650E70A2BCFAA88002188B1 /* Build configuration list for PBXNativeTarget "CalculateDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650E70B2BCFAA88002188B1 /* Debug */,
+				D650E70C2BCFAA88002188B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D650E70D2BCFAA88002188B1 /* Build configuration list for PBXNativeTarget "CalculateDistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650E70E2BCFAA88002188B1 /* Debug */,
+				D650E70F2BCFAA88002188B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D650E7102BCFAA88002188B1 /* Build configuration list for PBXNativeTarget "CalculateDistanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650E7112BCFAA88002188B1 /* Debug */,
+				D650E7122BCFAA88002188B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D650E6DE2BCFAA86002188B1 /* Project object */;
+}
