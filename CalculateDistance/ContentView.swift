@@ -54,10 +54,16 @@ struct ContentView: View {
         return await withCheckedContinuation{contiuation in
             let geocoder = CLGeocoder()
             geocoder.geocodeAddressString(destinationValue) { placermark, error in
-                guard let destination = placermark?.last?.location!.coordinate else{
+                guard let destination = placermark else{
                     return
                 }
-                contiuation.resume(returning: destination)
+                guard let findDestination = destination.last else{
+                    return
+                }
+                guard let findCordinate = findDestination.location else{
+                    return
+                }
+                contiuation.resume(returning: findCordinate.coordinate)
             }
         }
        
